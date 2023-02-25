@@ -1,31 +1,31 @@
-# Projet Client/Serveur
+# Client/Server project
 
-## Description du projet
+## Project description
 
-L'objectif est de créer un système de chat publique (pas de messages
-privés) avec authentification. L'objectif pédagogique est :
+The goal is to create a public chat system (no messages
+private) with authentication. The educational objective is:
 
-1. Manipulation de Java : comme la création des Java Beans pour
-représenter la couche modèle.
-2. Création d'une interface utilisateur Swing.
-3. Programmation Réseau en Java : connexion et échange de flux
-avec un serveur en utilisant les Sockets.
-4. Manipulation des base de données en utilisant JDBC.
-5. Programmation Multithreading.
+1. Manipulation of Java: like creating Java Beans for
+represent the model layer.
+2. Creating a Swing UI.
+3. Network programming in Java: connection and flow exchange
+with a server using Sockets.
+4. Manipulation of databases using JDBC.
+5. Multithreaded programming.
 
-Pour mieux assimiler ces notions, le projet sera présenté en plusieurs
-étapes où chaque étape repérsente l'ajout d'une nouvelle fonctionnalité 
-ou d'un nouveau aspect.
+To better assimilate these notions, the project will be presented in several
+steps where each step represents the addition of a new feature
+or a new aspect.
 
-## Etat actuel : Etape 07 :
+## Current status: Step 07:
 
-Actuellement, le système de chat fonctionne avec une interface 
-utilisateur.
+Currently, the chat system works with an interface
+user.
 
-L'interface consiste en deux frames :
+The interface consists of two frames:
 
-1. Une fenêtre d'authentification,
-2. Une fenêtre de chat.
+1. An authentication window,
+2. A chat window.
 
-Il reste quelques détails à fixer. Par exemple, en fermant la fenêtre 
-de chat le serveur lève une exception qui n'est pas encore corrigée.
+There are still a few details to fix. For example, closing the window
+from chat the server throws an exception which is not yet fixed.
